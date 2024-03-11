@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import "./nav.css"
-import { HiMenu } from "react-icons/hi";
-import { FaTimes } from "react-icons/fa";
+import { FaTimes, FaBars } from "react-icons/fa";
 
 export const Navbar = () => {
+
+    const navRef = useRef();
+    
+
   return (
     <header>
             <h3>Logo</h3>
@@ -12,12 +15,12 @@ export const Navbar = () => {
                 <a href='/#'>Api</a>
                 <a href='/#'>Slider</a>
                 <a href='/#'>About me</a>
-                <button>
+                <button className="nav-btn nav-close">
                     <FaTimes/>
                 </button>
             </nav>
-            <button>
-                <HiMenu/>
+            <button className="nav-btn">
+                <FaBars/>
             </button>
     </header>
   )

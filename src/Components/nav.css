@@ -1,29 +1,48 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 75px;
-    background-color: lightblue;
-    padding: 0 2rem;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 75px;
+  background-color: lightblue;
+  padding: 0 2rem;
 }
 
-header h3{
-    font-size: 25px;
+header h3 {
+  font-size: 25px;
+  cursor: pointer;
 }
 
-nav a{
-    margin: 0 1.7rem;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+nav a {
+  margin: 0 1.7rem;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
-nav a:hover{
-    color: red;
+nav a:hover {
+  color: red;
+}
+
+header .nav-btn {
+  padding: 7px;
+  cursor: pointer;
+  font-size: 19px;
+  background: transparent;
+  border: none;
+  outline: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+@media screen and (max-width: 768px) {
+    header .nav-btn{
+        visibility: visible;
+        opacity: 1;
+    }
 }
