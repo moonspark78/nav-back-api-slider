@@ -62,11 +62,18 @@ header .nav-btn {
       transform: translateY(-100vh);
     }
 
-    header .responsive_nav{
+    header .responsive-nav{
       transform: none;
     }
 
-    
+    nav .nav-close{
+      position: absolute;
+      top: 2rem;
+      right: 2rem;
+    }
 
+    header{
+      padding: 2rem;
+    }
 
 }
