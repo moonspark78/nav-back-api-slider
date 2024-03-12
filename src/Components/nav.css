@@ -9,19 +9,20 @@ header {
   align-items: center;
   justify-content: space-between;
   height: 75px;
-  background-color: lightblue;
+  background-color: transparent;
   padding: 0 2rem;
 }
 
 header h3 {
   font-size: 25px;
   cursor: pointer;
+  color: white;
 }
 
 nav a {
   margin: 0 1.7rem;
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: bold;
 }
 
@@ -38,6 +39,7 @@ header .nav-btn {
   outline: none;
   visibility: hidden;
   opacity: 0;
+  color: white;
 }
 
 @media screen and (max-width: 768px) {
@@ -45,6 +47,11 @@ header .nav-btn {
         visibility: visible;
         opacity: 1;
     }
+
+    nav a{
+      color: black;
+    }
+
 
     header nav{
       position: fixed;
@@ -58,7 +65,7 @@ header .nav-btn {
       justify-content: center;
       align-items: center;
       gap: 1.5rem;
-      background-color: lightblue;
+      background-color: white;
       transform: translateY(-100vh);
     }
 
@@ -70,6 +77,7 @@ header .nav-btn {
       position: absolute;
       top: 2rem;
       right: 2rem;
+      color: black;
     }
 
     header{
