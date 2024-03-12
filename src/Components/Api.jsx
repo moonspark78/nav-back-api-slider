@@ -9,7 +9,7 @@ export const Api = () => {
     
   return (
     <div className='to'>
-      <p>Bonjour</p>
+      {/* <p>Bonjour</p> */}
     </div>
   )
 }

@@ -12,6 +12,7 @@ header {
   background-color: transparent;
   padding: 0 2rem;
   position: fixed;
+  width: 100%;
 }
 
 header h3 {
