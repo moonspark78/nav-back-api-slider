@@ -1,0 +1,28 @@
+.wrapper {
+  margin-top: 100px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
+  justify-content: center;
+  gap: 16px;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 19px;
+  padding: 7px;
+}
+
+.card img {
+  width: 164px;
+  height: 164px;
+  object-fit: cover;
+}

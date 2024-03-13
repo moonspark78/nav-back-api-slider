@@ -8,6 +8,8 @@
     bottom: 0;
     padding: none;
     /* position: fixed; */
+    position: relative;
     object-fit: cover;
     z-index: -1;
+    margin-bottom: 100px;
 }

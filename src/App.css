@@ -1,9 +1,0 @@
-.app-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.content-container {
-  flex: 1;
-  position: relative;
-}
